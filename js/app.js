@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(new function () {
-    const apikey = "fcd46d46c64cbdb47ccd4beea09d944b";
+    const apikey = "07ac4b0205ef1ba23347f5901bdf968c";
     const userid = "johncarl81";
     const flickrUrl = "https://api.flickr.com/services/rest/?" +
         "method=flickr.photos.search" +
