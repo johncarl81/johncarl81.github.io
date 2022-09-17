@@ -29,3 +29,31 @@
 code {
     font-size: 0.9em;
 }
+
+#john_hero {
+    background: url(../images/john_fagradalsfjall.jpg) right no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 39.9375em) {
+    #john_hero {
+        height: 15em;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 99.9375em) {
+    #john_hero {
+        height: 25em;
+    }
+}
+
+
+@media screen and (min-width: 100em) {
+    #john_hero {
+        height:35em;
+    }
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
