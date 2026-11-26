@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="John Ericksen: software engineer at Honeywell, Director of Software at Avelo Labs, co-founder of CarbonSwarm, swarm robotics researcher, scuba diver, and underwater photographer.">
     <title>John Ericksen</title>
+    <link rel="canonical" href="https://johncarl81.github.io/">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://johncarl81.github.io/">
+    <meta property="og:title" content="John Ericksen">
+    <meta property="og:description" content="John Ericksen: software engineer at Honeywell, Director of Software at Avelo Labs, co-founder of CarbonSwarm, swarm robotics researcher, scuba diver, and underwater photographer.">
+    <meta property="og:image" content="https://johncarl81.github.io/images/preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="John Ericksen standing on the lava field at Fagradalsfjall, Iceland">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" integrity="sha384-SwEFMF9is9IXVlZTFMxuzEsxVflSVaYizmWHnNx4aO+UglwnQAbMoytZUlRnClL1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css" integrity="sha384-qrALq7+6jBOZIQsNnT6xGkMDru64qD6uTlDra39xrt2SoXl4pO3FX6Roz/RpR/BS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css">
@@ -55,6 +68,7 @@
           <a class="fa-brands fa-flickr fa-2x" href="https://www.flickr.com/photos/johncarl81" aria-label="Flickr" title="Flickr"></a>
           <a class="fa-brands fa-linkedin fa-2x" href="https://www.linkedin.com/in/john-ericksen-19766620/" aria-label="LinkedIn" title="LinkedIn"></a>
           <a class="fa-brands fa-youtube fa-2x" href="https://www.youtube.com/c/JohnEricksen" aria-label="YouTube" title="YouTube"></a>
+          <a class="fa-brands fa-orcid fa-2x" href="https://orcid.org/0000-0002-5242-6578" aria-label="ORCID" title="ORCID"></a>
           <hr/>
         </div>
         <div class="cell">
@@ -404,6 +418,32 @@
         <div class="cell">
           <h3 id="projects">Projects</h3>
           <div>
+            <h5><img src="images/dragonfly_icon.svg" alt="" width="48" height="48"> <a href="https://volcan.cs.unm.edu/">Dragonfly</a></h5>
+            <i class="fa-brands fa-github"></i><a href="https://github.com/johncarl81/dragonfly-controller"> Controller</a>
+            <i class="fa-brands fa-github"></i><a href="https://github.com/johncarl81/dragonfly-dashboard"> Dashboard</a>
+            <i class="fa-brands fa-github"></i><a href="https://github.com/johncarl81/dragonfly-sim"> Simulation</a>
+            <p>
+              Dragonfly is the drone swarm platform I built for the UNM VolCAN volcano research.
+              The controller flies teams of ArduPilot drones carrying CO<sub>2</sub> sensors through coordinated survey missions, including lawnmower and spiral surveys,
+              flocking, gradient descent toward a plume source, and Sketch boundary tracing.
+              A ground station dashboard tracks and commands the swarm, and a Gazebo simulation runs the same missions before they fly.
+              Dragonfly drones have flown into the plumes of the 2021 Tajogaite eruption on La Palma and the 2023 Litli Hrútur eruption in Iceland.
+            </p>
+          </div>
+          <hr/>
+
+          <div>
+            <h5><img src="images/locus_icon.svg" alt="" width="48" height="48"> <a href="https://doi.org/10.1109/IRC.2020.00025">LoCUS</a></h5>
+            <i class="fa-brands fa-github"></i><a href="https://github.com/BCLab-UNM/VolcanoSensing-LoCUS"> GitHub</a>
+            <p>
+              LoCUS is a loss-tolerant swarm algorithm for finding the point of maximum flux in a volcanic plume.
+              The swarm searches in an Archimedes spiral, then follows the gas gradient in a structured formation that heals itself when drones fail.
+              This simulation compares LoCUS against MoBS, where each drone searches independently.
+            </p>
+          </div>
+          <hr/>
+
+          <div>
             <h5><img src="images/package_emoji.png" alt=""> <a href="http://parceler.org/">Parceler</a></h5>
             <i class="fa-brands fa-github"></i><a href="https://github.com/johncarl81/parceler"> GitHub</a>
             <p>
@@ -450,6 +490,30 @@
         </div>
         <div class="cell">
           <h3 id="media">Miscellaneous Media</h3>
+          <div>
+            <h5><a href="https://eps.unm.edu/news-events/news/item/new-research-erupts-unm-professor-presents-instrument-in-tracking-iceland-volcanoes.html">New research erupts: UNM Professor presents instrument in tracking Iceland volcanoes</a></h5>
+            <i>January 2024</i>
+            <p>
+              UNM Earth &amp; Planetary Sciences on our team's trip to Iceland to measure CO<sub>2</sub> in eruption plumes and take samples by drone.
+            </p>
+          </div>
+          <hr/>
+          <div>
+            <h5><a href="https://news.unm.edu/news/unms-volcan-team-makes-history-in-canary-islands">UNM's VolCAN team makes history in Canary Islands</a></h5>
+            <i>January 2022</i>
+            <p>
+              The UNM Newsroom on the VolCAN team flying drones into the plume of the Tajogaite eruption on La Palma.
+            </p>
+          </div>
+          <hr/>
+          <div>
+            <h5><a href="https://news.unm.edu/news/unm-researchers-receive-nsf-national-robotics-initiative-grant-to-develop-swarms-of-drones-for-volcano-research">UNM researchers receive NSF National Robotics Initiative grant to develop swarms of drones for volcano research</a></h5>
+            <i>November 2020</i>
+            <p>
+              The UNM Newsroom on the NSF grant behind the VolCAN drone swarms, with photos of our drones flying in the Valles Caldera.
+            </p>
+          </div>
+          <hr/>
           <div>
             <h5><a href="https://dan.org/alert-diver/article/big-sur/">Big Sur</a></h5>
             <i>February 2019</i>
