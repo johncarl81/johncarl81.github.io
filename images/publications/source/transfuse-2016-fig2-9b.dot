@@ -1,0 +1,25 @@
+// Fig. 2.9b of the Transfuse thesis (Ericksen, 2016): the dependency injection graph
+// for the example code in Fig. 2.9a. Redrawn from the thesis figure as vector.
+// Build: dot -Tsvg transfuse-2016-fig2-9b.dot -o ../transfuse-2016-fig2-9b.svg
+digraph injection {
+    compound=true;
+    node [shape=box, fontname="Times", fontsize=12, width=0.5, height=0.5];
+    edge [arrowsize=0.8];
+
+    A;
+    subgraph cluster_B {
+        label="B";
+        fontname="Times";
+        fontsize=12;
+        BImpl;
+    }
+    C; D; E; F;
+
+    A -> BImpl [lhead=cluster_B];
+    A -> E;
+    BImpl -> C;
+    BImpl -> F;
+    C -> D;
+    D -> BImpl [lhead=cluster_B];
+    E -> F;
+}
