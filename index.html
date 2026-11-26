@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="John Ericksen: software engineer, co-founder of CarbonSwarm, swarm robotics researcher, scuba diver, and underwater photographer.">
+    <meta name="description" content="John Ericksen: software engineer at Honeywell, co-founder of CarbonSwarm, swarm robotics researcher, scuba diver, and underwater photographer.">
     <title>John Ericksen</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" integrity="sha384-SwEFMF9is9IXVlZTFMxuzEsxVflSVaYizmWHnNx4aO+UglwnQAbMoytZUlRnClL1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css" integrity="sha384-qrALq7+6jBOZIQsNnT6xGkMDru64qD6uTlDra39xrt2SoXl4pO3FX6Roz/RpR/BS" crossorigin="anonymous">
@@ -30,9 +30,10 @@
         <div class="cell">
           <h1 class="h2">Hi there, I'm John Ericksen</h1>
           <p>
-            I'm a co-founder and the Lead Engineer of <a href="https://carbonswarm.com">CarbonSwarm</a>, a spinoff of my Ph.D. research that deploys coordinated drone swarms
-            and custom sensor payloads to pinpoint gas leaks such as methane in remote and hazardous environments.
-            I'm also a Software Engineer at Honeywell and the Director of Software at <a href="https://diveavelo.com">Avelo Labs</a>, where we design human-centered diving systems.
+            I'm a Software Engineer at Honeywell.
+            I'm also a co-founder and the Lead Engineer of <a href="https://carbonswarm.com">CarbonSwarm</a>, a spinoff of my Ph.D. research that deploys coordinated drone swarms
+            and custom sensor payloads to pinpoint gas leaks such as methane in remote and hazardous environments,
+            and the Director of Software at <a href="https://diveavelo.com">Avelo Labs</a>, where we design human-centered diving systems.
           </p>
           <p>
             I earned my Ph.D. in Computer Science at the <a href="https://www.unm.edu/">University of New Mexico</a> with the <a href="https://moseslab.cs.unm.edu/">Moses Biological Computation Lab</a>,
@@ -60,16 +61,32 @@
           <div>
             <h5><a href="https://doi.org/10.5194/egusphere-2025-6430">Water Vapor Detection in Volcanic Plumes: Near-Infrared Cameras applications at Lascar, Chile, and Litli Hrútur, Iceland</a></h5>
             <i>Felipe Rojas Vilches, Tobias P. Fischer, Scott Nowicki, Melissa A. Pfeffer, Felipe Aguilera, Tom D. Pering, Thomas Wilkes, Susana Layana, Cristóbal González, G. Matthew Fricke, John Ericksen, and Melanie E. Moses</i>
-            <p>
-              Water vapor dominates volcanic gas emissions, yet accurate H<sub>2</sub>O flux measurements remain challenging.
-              We developed a multi-band near-infrared camera system, calibrated with an in-situ Multi-GAS instrument, to quantify volcanic H<sub>2</sub>O flux,
-              and tested it at the passively degassing Lascar volcano in Chile and the actively erupting Litli Hrútur eruption in Iceland.
-              Simultaneous camera, miniDOAS, and UV camera deployments show that H<sub>2</sub>O and SO<sub>2</sub> emissions vary independently,
-              demonstrating that direct measurements of each major gas are essential for accurate volatile budgets.
-            </p>
-            <small>
-              MLA: Rojas Vilches, Felipe, et al. "Water Vapor Detection in Volcanic Plumes: Near-Infrared Cameras applications at Lascar, Chile, and Litli Hrútur, Iceland." <em>EGUsphere</em>, 2026. Preprint.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  Water vapor dominates volcanic gas emissions, yet accurate H<sub>2</sub>O flux measurements remain challenging.
+                  We developed a multi-band near-infrared camera system, calibrated with an in-situ Multi-GAS instrument, to quantify volcanic H<sub>2</sub>O flux,
+                  and tested it at the passively degassing Lascar volcano in Chile and the actively erupting Litli Hrútur eruption in Iceland.
+                  Simultaneous camera, miniDOAS, and UV camera deployments show that H<sub>2</sub>O and SO<sub>2</sub> emissions vary independently,
+                  demonstrating that direct measurements of each major gas are essential for accurate volatile budgets.
+                </p>
+                <small>
+                  MLA: Rojas Vilches, Felipe, et al. "Water Vapor Detection in Volcanic Plumes: Near-Infrared Cameras applications at Lascar, Chile, and Litli Hrútur, Iceland." <em>EGUsphere</em>, 2026. Preprint.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/egusphere-2026-fig13-1280.webp">
+                    <img class="thumbnail" src="images/publications/egusphere-2026-fig13-640.webp"
+                         srcset="images/publications/egusphere-2026-fig13-640.webp 640w, images/publications/egusphere-2026-fig13-1280.webp 1280w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="1280" height="931" loading="lazy"
+                         alt="Simultaneous UV camera (SO2, top) and NIR camera (H2O, bottom) images of the same plume; arrows mark matching features.">
+                  </a>
+                  <figcaption>Simultaneous UV camera (SO<sub>2</sub>, top) and NIR camera (H<sub>2</sub>O, bottom) images of the same plume; arrows mark matching features. Fig. 13 from Rojas Vilches et al. (2026), CC BY 4.0.</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
@@ -91,46 +108,94 @@
           <div>
             <h5><a href="https://doi.org/10.5194/amt-17-4725-2024">Drone CO<sub>2</sub> measurements during the Tajogaite volcanic eruption</a></h5>
             <i>John Ericksen, Tobias P. Fischer, G. Matthew Fricke, Scott Nowicki, Nemesio M. Pérez, Pedro Hernández Pérez, Eleazar Padrón González, and Melanie E. Moses</i>
-            <p>
-              We report in-plume carbon dioxide concentrations and carbon isotope ratios during the 2021 eruption of Tajogaite volcano on La Palma, Spain.
-              Traditional ground-based CO<sub>2</sub> collection is difficult and dangerous, and only about 5% of volcanoes have been directly surveyed.
-              We demonstrate that unpiloted aerial system surveys allow for fast and relatively safe measurements, estimate the total CO<sub>2</sub> flux during several flights in November 2021,
-              and find carbon isotope ratios that indicate a deep magmatic source.
-            </p>
-            <small>
-              MLA: Ericksen, John, et al. "Drone CO2 measurements during the Tajogaite volcanic eruption." <em>Atmospheric Measurement Techniques</em>, vol. 17, no. 15, 2024, pp. 4725-36.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  We report in-plume carbon dioxide concentrations and carbon isotope ratios during the 2021 eruption of Tajogaite volcano on La Palma, Spain.
+                  Traditional ground-based CO<sub>2</sub> collection is difficult and dangerous, and only about 5% of volcanoes have been directly surveyed.
+                  We demonstrate that unpiloted aerial system surveys allow for fast and relatively safe measurements, estimate the total CO<sub>2</sub> flux during several flights in November 2021,
+                  and find carbon isotope ratios that indicate a deep magmatic source.
+                </p>
+                <small>
+                  MLA: Ericksen, John, et al. "Drone CO2 measurements during the Tajogaite volcanic eruption." <em>Atmospheric Measurement Techniques</em>, vol. 17, no. 15, 2024, pp. 4725-36.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/amt-2024-fig2-1280.webp">
+                    <img class="thumbnail" src="images/publications/amt-2024-fig2-640.webp"
+                         srcset="images/publications/amt-2024-fig2-640.webp 640w, images/publications/amt-2024-fig2-1280.webp 1280w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="1280" height="845" loading="lazy"
+                         alt="Drone transect flight paths on La Palma with a Kriging map of CO2 concentration, showing plumes A and B.">
+                  </a>
+                  <figcaption>Drone transect flight paths on La Palma with a Kriging map of CO<sub>2</sub> concentration, showing plumes A and B. Fig. 2 from Ericksen et al. (2024), CC BY 4.0.</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
           <div>
             <h5><a href="https://doi.org/10.1007/s00445-024-01751-7">CO<sub>2</sub> emissions during the 2023 Litli Hrútur eruption in Reykjanes, Iceland: δ<sup>13</sup>C tracks magma degassing</a></h5>
             <i>Tobias P. Fischer, Céline L. Mandon, Scott Nowicki, John Ericksen, Felipe Rojas Vilches, Melissa A. Pfeffer, Alessandro Aiuppa, Marcello Bitetto, Angelo Vitale, G. Matthew Fricke, Melanie E. Moses, and Andri Stefánsson</i>
-            <p>
-              We report CO<sub>2</sub> emission rates and plume δ<sup>13</sup>C during the July 2023 eruption at Litli Hrútur in the Fagradalsfjall region of the Reykjanes Peninsula.
-              Emission rates were measured by UAV using a new data extrapolation method that gives rapid flux results for dynamic eruption plumes.
-              Rapid, real-time CO<sub>2</sub> flux measurements coupled with isotopic samples collected at the same time provide key insights into eruption dynamics
-              and have the potential to forecast the end of activity.
-            </p>
-            <small>
-              MLA: Fischer, Tobias P., et al. "CO2 emissions during the 2023 Litli Hrútur eruption in Reykjanes, Iceland: δ13C tracks magma degassing." <em>Bulletin of Volcanology</em>, vol. 86, no. 6, 2024, article 60.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  We report CO<sub>2</sub> emission rates and plume δ<sup>13</sup>C during the July 2023 eruption at Litli Hrútur in the Fagradalsfjall region of the Reykjanes Peninsula.
+                  Emission rates were measured by UAV using a new data extrapolation method that gives rapid flux results for dynamic eruption plumes.
+                  Rapid, real-time CO<sub>2</sub> flux measurements coupled with isotopic samples collected at the same time provide key insights into eruption dynamics
+                  and have the potential to forecast the end of activity.
+                </p>
+                <small>
+                  MLA: Fischer, Tobias P., et al. "CO2 emissions during the 2023 Litli Hrútur eruption in Reykjanes, Iceland: δ13C tracks magma degassing." <em>Bulletin of Volcanology</em>, vol. 86, no. 6, 2024, article 60.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/bullvolc-2024-fig2-1280.webp">
+                    <img class="thumbnail" src="images/publications/bullvolc-2024-fig2-640.webp"
+                         srcset="images/publications/bullvolc-2024-fig2-640.webp 640w, images/publications/bullvolc-2024-fig2-1280.webp 1280w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="1280" height="1164" loading="lazy"
+                         alt="Drone CO2 traverse and DOAS SO2 traverse across the Litli Hrútur plume, over a Sentinel-2 image.">
+                  </a>
+                  <figcaption>Drone CO<sub>2</sub> traverse and DOAS SO<sub>2</sub> traverse across the Litli Hrútur plume, over a Sentinel-2 image. Fig. 2 from the Research Square preprint of Fischer et al. (2024), CC BY 4.0.</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
           <div>
             <h5><a href="https://doi.org/10.3389/fcteg.2022.836720">Aerial Survey Robotics in Extreme Environments: Mapping Volcanic CO<sub>2</sub> Emissions With Flocking UAVs</a></h5>
             <i>John Ericksen, G. Matthew Fricke, Scott Nowicki, Tobias P. Fischer, Julie C. Hayes, Karissa Rosenberger, Samantha R. Wolf, Rafael Fierro, and Melanie E. Moses</i>
-            <p>We present methods for autonomous collaborative surveying of volcanic CO<sub>2</sub> emissions using aerial robots. CO<sub>2</sub> is a useful predictor of volcanic eruptions and an influential greenhouse gas.
-              However, current CO<sub>2</sub> mapping methods are hazardous and inefficient, as a result, only a small fraction of CO<sub>2</sub> emitting volcanoes have been surveyed. We develop algorithms and a platform
-              to measure volcanic CO<sub>2</sub> emissions. The Dragonfly Unpiloted Aerial Vehicle (UAV) platform is capable of long-duration CO<sub>2</sub> collection flights in harsh environments. We implement two survey
-              algorithms on teams of Dragonfly robots and demonstrate that they effectively map gas emissions and locate the highest gas concentrations. Our experiments culminate in a successful field
-              test of collaborative rasterization and gradient descent algorithms in a challenging real-world environment at the edge of the Valles Caldera supervolcano. Both algorithms treat multiple
-              flocking UAVs as a distributed flexible instrument. Simultaneous sensing in multiple UAVs gives scientists greater confidence in estimates of gas concentrations and the locations of sources
-              of those emissions. These methods are also applicable to a range of other airborne concentration mapping tasks, such as pipeline leak detection and contaminant localization.</p>
-            <small>
-              MLA: Ericksen, John, et al. "Aerial Survey Robotics in Extreme Environments: Mapping Volcanic CO2 Emissions With Flocking UAVs." <em>Frontiers in Control Engineering</em>, vol. 3, 2022, article 836720.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>We present methods for autonomous collaborative surveying of volcanic CO<sub>2</sub> emissions using aerial robots. CO<sub>2</sub> is a useful predictor of volcanic eruptions and an influential greenhouse gas.
+                  However, current CO<sub>2</sub> mapping methods are hazardous and inefficient, as a result, only a small fraction of CO<sub>2</sub> emitting volcanoes have been surveyed. We develop algorithms and a platform
+                  to measure volcanic CO<sub>2</sub> emissions. The Dragonfly Unpiloted Aerial Vehicle (UAV) platform is capable of long-duration CO<sub>2</sub> collection flights in harsh environments. We implement two survey
+                  algorithms on teams of Dragonfly robots and demonstrate that they effectively map gas emissions and locate the highest gas concentrations. Our experiments culminate in a successful field
+                  test of collaborative rasterization and gradient descent algorithms in a challenging real-world environment at the edge of the Valles Caldera supervolcano. Both algorithms treat multiple
+                  flocking UAVs as a distributed flexible instrument. Simultaneous sensing in multiple UAVs gives scientists greater confidence in estimates of gas concentrations and the locations of sources
+                  of those emissions. These methods are also applicable to a range of other airborne concentration mapping tasks, such as pipeline leak detection and contaminant localization.</p>
+                <small>
+                  MLA: Ericksen, John, et al. "Aerial Survey Robotics in Extreme Environments: Mapping Volcanic CO2 Emissions With Flocking UAVs." <em>Frontiers in Control Engineering</em>, vol. 3, 2022, article 836720.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/frontiers-2022-fig9-1280.webp">
+                    <img class="thumbnail" src="images/publications/frontiers-2022-fig9-640.webp"
+                         srcset="images/publications/frontiers-2022-fig9-640.webp 640w, images/publications/frontiers-2022-fig9-1280.webp 982w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="982" height="978" loading="lazy"
+                         alt="Three Dragonflies in V-formation follow the CO2 gradient through a virtual plume during a field test.">
+                  </a>
+                  <figcaption>Three Dragonflies in V-formation follow the CO<sub>2</sub> gradient through a virtual plume during a field test. Fig. 9 from Ericksen et al. (2022), CC BY 4.0.</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
@@ -149,30 +214,62 @@
           <div>
             <h5><a href="https://doi.org/10.1109/IRC.2020.00025">LoCUS: A multi-robot loss-tolerant algorithm for surveying volcanic plumes</a></h5>
             <i>John Ericksen, Abhinav Aggarwal, G. Matthew Fricke, and Melanie E. Moses</i>
-            <p>
-              Measurement of volcanic CO<sub>2</sub> flux by a drone swarm poses special challenges.
-              Drones must be able to follow gas concentration gradients while tolerating frequent drone loss.
-              We present the LoCUS algorithm as a solution to this problem and prove its robustness.
-              LoCUS relies on swarm coordination and self-healing to solve the task.
-              As a point of contrast we also implement the MoBS algorithm, derived from previously published work, which allows drones to solve the task independently.
-              We compare the effectiveness of these algorithms using drone simulations, and find that LoCUS provides a reliable and efficient solution to the volcano survey problem.
-              Further, the novel data structures and algorithms underpinning LoCUS have application in other areas of fault-tolerant algorithm research.
-            </p>
-            <small>
-              MLA: Ericksen, John, et al. "LoCUS: A multi-robot loss-tolerant algorithm for surveying volcanic plumes." <em>2020 Fourth IEEE International Conference on Robotic Computing (IRC)</em>, IEEE, 2020, pp. 113-20.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  Measurement of volcanic CO<sub>2</sub> flux by a drone swarm poses special challenges.
+                  Drones must be able to follow gas concentration gradients while tolerating frequent drone loss.
+                  We present the LoCUS algorithm as a solution to this problem and prove its robustness.
+                  LoCUS relies on swarm coordination and self-healing to solve the task.
+                  As a point of contrast we also implement the MoBS algorithm, derived from previously published work, which allows drones to solve the task independently.
+                  We compare the effectiveness of these algorithms using drone simulations, and find that LoCUS provides a reliable and efficient solution to the volcano survey problem.
+                  Further, the novel data structures and algorithms underpinning LoCUS have application in other areas of fault-tolerant algorithm research.
+                </p>
+                <small>
+                  MLA: Ericksen, John, et al. "LoCUS: A multi-robot loss-tolerant algorithm for surveying volcanic plumes." <em>2020 Fourth IEEE International Conference on Robotic Computing (IRC)</em>, IEEE, 2020, pp. 113-20.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/locus-2020-fig3-1280.webp">
+                    <img class="thumbnail" src="images/publications/locus-2020-fig3-640.webp"
+                         srcset="images/publications/locus-2020-fig3-640.webp 640w, images/publications/locus-2020-fig3-1280.webp 1261w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="1261" height="800" loading="lazy"
+                         alt="LoCUS simulation with 16 drones: the swarm's Archimedes spiral search (red) finds and climbs a perturbed plume.">
+                  </a>
+                  <figcaption>LoCUS simulation with 16 drones: the swarm's Archimedes spiral search (red) finds and climbs a perturbed plume. Fig. 3 from the arXiv version of Ericksen et al. (2020).</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
           <div>
             <h5><a href="https://arxiv.org/abs/1911.11974">On the Minimal Set of Inputs Required for Efficient Neuro-Evolved Foraging</a></h5>
             <i>John Ericksen, Abhinav Aggarwal, and Melanie E. Moses</i>
-            <p>
-              In this paper, we perform an ablation study of NeatFA, a neuro-evolved foraging algorithm that has recently been shown to forage efficiently under different resource distributions. Through selective disabling of input signals, we identify a <em>sufficiently</em> minimal set of input features that contribute the most towards determining search trajectories which favor high resource collection rates. Our experiments reveal that, independent of how the resources are distributed in the arena, the signals involved in imparting the controller the ability to switch from searching of resources to transporting them back to the nest are the most critical. Additionally, we find that pheromones play a key role in boosting performance of the controller by providing signals for informed locomotion in search for unforaged resources.
-            </p>
-            <small>
-              MLA: Ericksen, John, et al. "On the Minimal Set of Inputs Required for Efficient Neuro-Evolved Foraging." <em>arXiv</em>, 2019, arXiv:1911.11974. Preprint.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  In this paper, we perform an ablation study of NeatFA, a neuro-evolved foraging algorithm that has recently been shown to forage efficiently under different resource distributions. Through selective disabling of input signals, we identify a <em>sufficiently</em> minimal set of input features that contribute the most towards determining search trajectories which favor high resource collection rates. Our experiments reveal that, independent of how the resources are distributed in the arena, the signals involved in imparting the controller the ability to switch from searching of resources to transporting them back to the nest are the most critical. Additionally, we find that pheromones play a key role in boosting performance of the controller by providing signals for informed locomotion in search for unforaged resources.
+                </p>
+                <small>
+                  MLA: Ericksen, John, et al. "On the Minimal Set of Inputs Required for Efficient Neuro-Evolved Foraging." <em>arXiv</em>, 2019, arXiv:1911.11974. Preprint.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/neatfa-2019-fig1-1280.webp">
+                    <img class="thumbnail" src="images/publications/neatfa-2019-fig1-640.webp"
+                         srcset="images/publications/neatfa-2019-fig1-640.webp 640w, images/publications/neatfa-2019-fig1-1280.webp 1148w"
+                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
+                         width="1148" height="658" loading="lazy"
+                         alt="Resources collected over time as each controller input is disabled, in an arena with clustered resources.">
+                  </a>
+                  <figcaption>Resources collected over time as each controller input is disabled, in an arena with clustered resources. Fig. 1 from Ericksen et al. (2019).</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
