@@ -93,15 +93,29 @@
           <div>
             <h5><a href="https://doi.org/10.1109/SSRR62954.2024.10770060">Navigating the Edge: UAS Boundary Tracing for Efficient Volcanic Plume Monitoring</a></h5>
             <i>John Ericksen, Abir Islam, Carter Frost, Kevin Aubert, G. Matthew Fricke, Varsha Dani, Rafael Fierro, Tobias P. Fischer, Scott Nowicki, Jared Saia, and Melanie E. Moses</i>
-            <p>
-              We present the implementation and validation of Sketch, an algorithm that uses two Unpiloted Aerial Systems (UASs) to trace the boundary of volcanic plumes.
-              Sketch guarantees asymptotically optimal flight distance and turning by maintaining a sandwich invariant, where one UAS stays inside the CO<sub>2</sub> plume boundary and the other stays outside.
-              We implement Sketch on the Dragonfly drone and evaluate it in physics-based simulation and outdoor flights with virtual plumes.
-              Compared to the single-UAS Zigzag baseline, Sketch achieves shorter flight paths, less turning, and faster mapping times.
-            </p>
-            <small>
-              MLA: Ericksen, John, et al. "Navigating the Edge: UAS Boundary Tracing for Efficient Volcanic Plume Monitoring." <em>2024 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)</em>, IEEE, 2024, pp. 52-57.
-            </small>
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-8">
+                <p>
+                  We present the implementation and validation of Sketch, an algorithm that uses two Unpiloted Aerial Systems (UASs) to trace the boundary of volcanic plumes.
+                  Sketch guarantees asymptotically optimal flight distance and turning by maintaining a sandwich invariant, where one UAS stays inside the CO<sub>2</sub> plume boundary and the other stays outside.
+                  We implement Sketch on the Dragonfly drone and evaluate it in physics-based simulation and outdoor flights with virtual plumes.
+                  Compared to the single-UAS Zigzag baseline, Sketch achieves shorter flight paths, less turning, and faster mapping times.
+                </p>
+                <small>
+                  MLA: Ericksen, John, et al. "Navigating the Edge: UAS Boundary Tracing for Efficient Volcanic Plume Monitoring." <em>2024 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)</em>, IEEE, 2024, pp. 52-57.
+                </small>
+              </div>
+              <div class="cell medium-4">
+                <figure>
+                  <a href="images/publications/ssrr-2024-fig3.svg">
+                    <img class="thumbnail" src="images/publications/ssrr-2024-fig3.svg"
+                         width="124" height="206" loading="lazy"
+                         alt="How Sketch works: at (1) the two drones sandwich the plume edge (green); at (2) one crosses it and the pair turns to restore the sandwich; at (3) they straddle the edge again and fly straight.">
+                  </a>
+                  <figcaption>How Sketch works: at (1) the two drones sandwich the plume edge (green); at (2) one crosses it and the pair turns to restore the sandwich; at (3) they straddle the edge again and fly straight. Fig. 3 from Ericksen et al. (2024).</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <hr/>
 
@@ -122,11 +136,9 @@
               </div>
               <div class="cell medium-4">
                 <figure>
-                  <a href="images/publications/amt-2024-fig2-1280.webp">
-                    <img class="thumbnail" src="images/publications/amt-2024-fig2-640.webp"
-                         srcset="images/publications/amt-2024-fig2-640.webp 640w, images/publications/amt-2024-fig2-1280.webp 1280w"
-                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
-                         width="1280" height="845" loading="lazy"
+                  <a href="images/publications/amt-2024-fig2.svg">
+                    <img class="thumbnail" src="images/publications/amt-2024-fig2.svg"
+                         width="556" height="379" loading="lazy"
                          alt="Drone transect flight paths on La Palma with a Kriging map of CO2 concentration, showing plumes A and B.">
                   </a>
                   <figcaption>Drone transect flight paths on La Palma with a Kriging map of CO<sub>2</sub> concentration, showing plumes A and B. Fig. 2 from Ericksen et al. (2024), CC BY 4.0.</figcaption>
@@ -185,14 +197,12 @@
               </div>
               <div class="cell medium-4">
                 <figure>
-                  <a href="images/publications/frontiers-2022-fig9-1280.webp">
-                    <img class="thumbnail" src="images/publications/frontiers-2022-fig9-640.webp"
-                         srcset="images/publications/frontiers-2022-fig9-640.webp 640w, images/publications/frontiers-2022-fig9-1280.webp 982w"
-                         sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
-                         width="982" height="978" loading="lazy"
-                         alt="Three Dragonflies in V-formation follow the CO2 gradient through a virtual plume during a field test.">
+                  <a href="images/publications/frontiers-2022-fig4.svg">
+                    <img class="thumbnail" src="images/publications/frontiers-2022-fig4.svg"
+                         width="340" height="246" loading="lazy"
+                         alt="The forces on each flocking Dragonfly: repulsion ar inside radius r0, formation springs af, damping ad, and the leader velocity vl.">
                   </a>
-                  <figcaption>Three Dragonflies in V-formation follow the CO<sub>2</sub> gradient through a virtual plume during a field test. Fig. 9 from Ericksen et al. (2022), CC BY 4.0.</figcaption>
+                  <figcaption>The forces on each flocking Dragonfly: repulsion <i>a<sub>r</sub></i> inside radius <i>r</i><sub>0</sub>, formation springs <i>a<sub>f</sub></i>, damping <i>a<sub>d</sub></i>, and the leader velocity <i>v<sub>l</sub></i>. Fig. 4 from Ericksen et al. (2022), CC BY 4.0.</figcaption>
                 </figure>
               </div>
             </div>
@@ -231,14 +241,14 @@
               </div>
               <div class="cell medium-4">
                 <figure>
-                  <a href="images/publications/locus-2020-fig3-1280.webp">
-                    <img class="thumbnail" src="images/publications/locus-2020-fig3-640.webp"
-                         srcset="images/publications/locus-2020-fig3-640.webp 640w, images/publications/locus-2020-fig3-1280.webp 1261w"
+                  <a href="images/publications/locus-2020-fig2-1280.webp">
+                    <img class="thumbnail" src="images/publications/locus-2020-fig2-640.webp"
+                         srcset="images/publications/locus-2020-fig2-640.webp 640w, images/publications/locus-2020-fig2-1280.webp 1261w"
                          sizes="(min-width: 75em) 390px, (min-width: 40em) 33vw, 100vw"
                          width="1261" height="800" loading="lazy"
                          alt="LoCUS simulation with 16 drones: the swarm's Archimedes spiral search (red) finds and climbs a perturbed plume.">
                   </a>
-                  <figcaption>LoCUS simulation with 16 drones: the swarm's Archimedes spiral search (red) finds and climbs a perturbed plume. Fig. 3 from the arXiv version of Ericksen et al. (2020).</figcaption>
+                  <figcaption>LoCUS simulation with 16 drones: the swarm's Archimedes spiral search (red) finds and climbs a perturbed plume. Fig. 2 from Ericksen et al. (2020).</figcaption>
                 </figure>
               </div>
             </div>

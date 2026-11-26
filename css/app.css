@@ -28,6 +28,10 @@ figure {
     margin: 0 0 1rem;
 }
 
+figure img {
+    width: 100%;
+}
+
 figcaption {
     font-size: 80%;
     line-height: 1.4;
