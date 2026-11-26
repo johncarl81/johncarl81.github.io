@@ -1,4 +1,4 @@
-.fab {
+.fa-brands {
     margin: 0 0.2em;
 }
 .fa-facebook {
@@ -16,44 +16,10 @@
 .fa-flickr {
     color: #ff0084;
 }
-.fa-twitter {
-    color: #1da1f2;
-}
-.fa-google-plus {
-    color: #dd4b39;
-}
 .fa-youtube {
     color: #ff0000;
 }
 
 code {
     font-size: 0.9em;
-}
-
-#john_hero {
-    background: url(../images/john_fagradalsfjall.jpg) right no-repeat;
-    background-size: cover;
-}
-
-@media screen and (max-width: 39.9375em) {
-    #john_hero {
-        height: 15em;
-    }
-}
-
-@media screen and (min-width: 40em) and (max-width: 99.9375em) {
-    #john_hero {
-        height: 25em;
-    }
-}
-
-
-@media screen and (min-width: 100em) {
-    #john_hero {
-        height:45em;
-    }
-}
-
-.vertical-bottom {
-    vertical-align: bottom;
 }
